@@ -1,0 +1,1 @@
+<input type="text" name="attributes[{{ $attribute->id }}]" id="attribute-{{ $attribute->id }}" value="{{ $value }}" class="form-control">

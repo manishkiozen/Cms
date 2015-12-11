@@ -1,0 +1,117 @@
+
+header {
+    width: 100%;
+}
+
+.alert {
+    border: 0;
+    border-radius: 0;
+    margin: 0 auto;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 1000;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+}
+
+.links-list li {
+    line-height: 30px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar form {
+    background-color: lightgray;
+    background-color: rgba(255, 255, 255, .2);
+    color: white;
+    padding: 5px 10px;
+}
+
+.navbar input[type="text"] {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    padding: 10px;
+}
+
+.navbar a, .navbar button, .navbar-brand .widget a, .widget button {
+    color: white !important;
+}
+
+.navbar-nav > li > button {
+    border: 0;
+    padding: 15px;
+}
+
+.reset-q {
+    color: darkred;
+}
+
+.toolbar {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+
+.toolbar a:hover, .toolbar button:hover {
+    background-color: darkgray !important;
+}
+
+.validation-error {
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.widget {
+    float: left;
+}
+
+.widget a, .widget button {
+    padding: 20px;
+}
+
+.widget a, .widget button, .widget .dropdown-menu {
+    border: 0;
+    border-radius: 0;
+}
+
+.widget .dropdown-menu > li > a:hover {
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.widget.open > .dropdown-toggle.btn-default {
+    background-color: lightslategray;
+}
+
+.widgetbar {
+    background-color: darkslategray;
+    border: 0;
+    border-radius: 0;
+}
+
+.control-panel-widget .btn, .control-panel-widget .dropdown-menu, .control-panel-toolbar {
+    background-color: limegreen;
+}
+
+.products-widget .btn, ul.products-widget, .products-toolbar {
+    background-color: darkblue;
+}
+
+.user-widget .btn, .user-widget .dropdown-menu, ul.user-widget {
+    background-color: orangered;
+}
+
+[required] {
+    border-color: limegreen;
+    border-right-width: 4px;
+}
